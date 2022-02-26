@@ -18,7 +18,7 @@ importers:
       '@babel/plugin-proposal-nullish-coalescing-operator': 7.16.7
       '@babel/plugin-proposal-numeric-separator': 7.16.7
       '@babel/plugin-proposal-optional-chaining': 7.16.7
-      '@babel/plugin-proposal-pipeline-operator': 7.16.7
+      '@babel/plugin-proposal-pipeline-operator': 7.17.6
       '@babel/plugin-proposal-private-methods': 7.16.11
       '@babel/plugin-proposal-throw-expressions': 7.16.7
       '@babel/plugin-syntax-dynamic-import': 7.8.3
@@ -51,7 +51,7 @@ importers:
       '@babel/plugin-proposal-nullish-coalescing-operator': 7.16.7_@babel+core@7.13.14
       '@babel/plugin-proposal-numeric-separator': 7.16.7_@babel+core@7.13.14
       '@babel/plugin-proposal-optional-chaining': 7.16.7_@babel+core@7.13.14
-      '@babel/plugin-proposal-pipeline-operator': 7.16.7_@babel+core@7.13.14
+      '@babel/plugin-proposal-pipeline-operator': 7.17.6_@babel+core@7.13.14
       '@babel/plugin-proposal-private-methods': 7.16.11_@babel+core@7.13.14
       '@babel/plugin-proposal-throw-expressions': 7.16.7_@babel+core@7.13.14
       '@babel/plugin-syntax-dynamic-import': 7.8.3_@babel+core@7.13.14
@@ -685,15 +685,15 @@ packages:
       '@babel/plugin-syntax-optional-chaining': 7.8.3_@babel+core@7.13.14
     dev: false
 
-  /@babel/plugin-proposal-pipeline-operator/7.16.7_@babel+core@7.13.14:
-    resolution: {integrity: sha512-og/v0C+wGJ2S+EwM9/KNtPB0MYrYR48Wiwlji6R9e6NYM5LXpyBQ1BcUWUXJLAtfub4/geOjLMO3xHDdmlPXoA==}
+  /@babel/plugin-proposal-pipeline-operator/7.17.6_@babel+core@7.13.14:
+    resolution: {integrity: sha512-n1jaBJW05mRSShsMwK6ObEN9C925w3bleGZlzvPRdEJ0ZNvXoSncAJMGSzLKo7NScfZdWuLtf7BQtBMfFTHP+g==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.13.14
       '@babel/helper-plugin-utils': 7.16.7
-      '@babel/plugin-syntax-pipeline-operator': 7.16.7_@babel+core@7.13.14
+      '@babel/plugin-syntax-pipeline-operator': 7.17.0_@babel+core@7.13.14
     dev: false
 
   /@babel/plugin-proposal-private-methods/7.16.11_@babel+core@7.13.14:
@@ -932,8 +932,8 @@ packages:
       '@babel/helper-plugin-utils': 7.16.7
     dev: false
 
-  /@babel/plugin-syntax-pipeline-operator/7.16.7_@babel+core@7.13.14:
-    resolution: {integrity: sha512-t021QtCAsMvTQ+hy9aEX1TMhz4rFdnPZtddeTVya9PnX/xj5xoCvE2i1fzTknDpCJudZIsGlI6bAuVu2omrYgw==}
+  /@babel/plugin-syntax-pipeline-operator/7.17.0_@babel+core@7.13.14:
+    resolution: {integrity: sha512-vNE+4pNAOk2Q0BkyTf+XMwZ53vMDJ7Ic/Z85sruaJfJJ+4O5k/61z2a4Xj3CSl9kKRlXOALbsxWca0vZz7ENbw==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
